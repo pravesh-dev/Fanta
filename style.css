@@ -157,6 +157,14 @@ header {
     z-index: 3;
     rotate: -90deg;
 }
+#leaf3{
+    width: 23vw;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    z-index: 3;
+    /* rotate: -90deg; */
+}
 #blend-wrapper{
     width: 100%;
     height: 100%;
@@ -206,6 +214,7 @@ header {
   justify-content: center;
   color: #fff;
   padding: 0 3vw;
+  position: relative;
   > h2 {
     font-size: 5vw;
     letter-spacing: -3px;
@@ -216,6 +225,13 @@ header {
     font-weight: 600;
     padding-right: 4.5vw;
   }
+}
+#orange-leaf{
+    width: 18vw;
+    position: absolute;
+    top: 10%;
+    right: 0;
+    rotate: 180deg;
 }
 #third-section {
   width: 100%;
@@ -264,6 +280,14 @@ header {
   height: 3.2vw;
   background: #ff9900;
   color: #fff;
+  border: 2px solid transparent;
+  transition: all ease-in 0.4s;
+}
+.can-buy-btn:hover{
+    border: 2px solid #ff9900;
+    background: #ff99006c;
+    backdrop-filter: blur(15px);
+    color: #ff9900;
 }
 
 @media (max-width: 1024px) {
